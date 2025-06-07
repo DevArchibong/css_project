@@ -1,0 +1,47 @@
+h1 {
+    
+    text-align: c;
+}
+.contact {
+    color: black;
+    background-color:bisque;
+    text-align: center;
+    padding : 5px;
+}
+.navbar {
+    background-color:dimgray;
+    padding: 10px;
+    justify-items: center;
+}
+
+.nav {
+    list-style: none;        /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* Arrange <li> items inline */
+    gap: 20px;               /* Space between links */
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline;
+    transition: background 0.3s;
+}
+
+.nav li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+
+}
+img {
+    width:200px;         /* Set width */
+    height: 200px;        /* Set height */
+    object-fit:initial;    /* Ensures image fills the shape without distortion */
+    border-radius: 50%;   /* Makes it a circle */
+    
+}
+
+}
+
