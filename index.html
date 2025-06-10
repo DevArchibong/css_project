@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta information and page setup -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Emmanuel Archibong - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Font (Roboto) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
+    <!-- Navigation Bar -->
     <nav class="navbar">
-      <ul class= "nav">
+      <ul class="nav">
+        <!-- Navigation Links -->
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
@@ -20,24 +27,30 @@
       </ul>
     </nav>
 
-    <section class="contact"aria-label="Contact Information">
+    <!-- Contact Information Section -->
+    <section class="contact" aria-label="Contact Information">
       <h1>Archibong Emmanuel</h1>
       <p>Email: <a href="mailto:archibonggemmanuel@gmail.com">archibonggemmanuel@gmail.com</a></p>
-    <img src="media_files/my_headshot.jpg" width="200px" alt="My Image">
-    
+      <p>Whatsapp: +2348153890778</p>
+
+      <!-- Profile Image -->
+      <img src="media_files/my_headshot.jpg" width="200px" alt="My Image">
     </section>
-  
   </header>
 
   <main>
+    <!-- Multimedia Section: Video and Audio -->
     <section>
       <h2>Check out the video and audio below</h2>
+      
+      <!-- Embedded Video -->
       <video controls preload="auto" width="350" loop>
         <source src="media_files/sample_video.mp4" type="video/mp4" />
         <source src="media_files/sample_video.mp4" type="video/webm" />
         <p>Your browser doesn't support HTML5 video. Here is a <a href="media_files/sample_video.mp4">link to the video</a> instead.</p>
       </video>
 
+      <!-- Embedded Audio -->
       <audio controls loop>
         <source src="media_files/sample_audio.mp3" type="audio/mp3" />
         <source src="sample_audio.ogg" type="audio/ogg" />
@@ -45,6 +58,7 @@
       </audio>
     </section>
 
+    <!-- About Section -->
     <section id="about">
       <h2>About</h2>
       <p>
@@ -53,26 +67,31 @@
       </p>
     </section>
 
-      <section id="resume">
-    <h2>Resume</h2>
-    <p><strong>Download Resume:</strong> <a href="portfolio webpage/archibongcv.docx" target="_blank">Click here</a></p>
+    <!-- Resume Section -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <!-- Link to downloadable resume -->
+      <p><strong>Download Resume:</strong> <a href="portfolio webpage/archibongcv.docx" target="_blank">Click here</a></p>
 
-    <h2>Education</h2>
-    <p><strong>BSc. in Electrical Electronics Engineering</strong><br>Olabisi Onabanjo University, 2020</p>
+      <!-- Education Background -->
+      <h2>Education</h2>
+      <p><strong>BSc. in Electrical Electronics Engineering</strong><br>Olabisi Onabanjo University, 2020</p>
 
-    <h2>Experience</h2>
-    <p><strong>Tech Support Engineer</strong> at 54Gene Nigeria (2021–2024)<br>
-    - Built responsive web apps using React and Tailwind CSS.</p>
+      <!-- Work Experience -->
+      <h2>Experience</h2>
+      <p><strong>Tech Support Engineer</strong> at 54Gene Nigeria (2021–2024)<br>
+      - Built responsive web apps using React and Tailwind CSS.</p>
 
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Node.js, Express</li>
-      <li>Git, GitHub, REST APIs</li>
-    </ul>
-  </section>
+      <!-- Technical Skills -->
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Node.js, Express</li>
+        <li>Git, GitHub, REST APIs</li>
+      </ul>
+    </section>
 
-
+    <!-- Portfolio Projects -->
     <section id="work">
       <h2>Work</h2>
       <ul>
@@ -91,10 +110,13 @@
       </ul>
     </section>
 
+    <!-- Contact Form -->
     <section id="contact">
       <h2>Contact</h2>
       <p>If you'd like to get in touch, feel free to email or fill out the form below!</p>
-      <form>
+      
+      <!-- Simple Contact Form -->
+      <form class="form">
         <label for="name">Name</label><br />
         <input type="text" id="name" name="name" placeholder="Type your name" required /><br />
 
@@ -109,6 +131,7 @@
     </section>
   </main>
 
+  <!-- Footer Section -->
   <footer>
     <p>&copy; 2025 Emmanuel Archibong. All rights reserved.</p>
   </footer>

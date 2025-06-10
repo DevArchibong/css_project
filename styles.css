@@ -1,0 +1,80 @@
+h2{
+    color:rgb(240, 187, 123);
+}
+
+.contact {
+    color: black;
+    background-color:bisque;
+    text-align: left;
+    padding : 30px;
+ 
+}
+    .contact p {
+        color: black;
+
+    }
+
+    .contact a:hover{  
+    background-color:blueviolet;
+    border-radius: 4px;
+    }
+  
+.navbar {
+    background-color:dimgray;
+    padding: 10px;
+    justify-items:center;
+    font-family:"roboto", sans-serif;
+}
+
+.nav {
+    list-style: none;        /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* Arrange <li> items inline */
+    gap: 20px;               /* Space between links */
+}
+
+.nav li a {
+    color: white;  
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline;
+    transition: background 0.3s;
+}
+
+.nav li a:hover {                   /* setting hover properties */
+    background-color: #555;
+    border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  width:200px;         /* Set width */
+    height: 200px;        /* Set height */
+    object-fit:fill;    /* Ensures image fills the shape without distortion */
+    border-radius: 50%;
+    border:5px;   /* Makes it a circle */
+    position: absolute;
+    top: 50px;
+    right:1px;
+    left:500px;
+    display:block;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #555;
+}
+
+  p {
+    color: white
+
+  }
+
+  .form {
+    color:white 
+  }
+  
+  li{
+    color:white;
+  }
