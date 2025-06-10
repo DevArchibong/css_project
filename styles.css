@@ -1,80 +1,91 @@
-h2{
-    color:rgb(240, 187, 123);
+/* Style for all <h2> elements */
+h2 {
+    color: rgb(240, 187, 123); /* Set text color to a warm orange-tan */
 }
 
+/* Style for all <p> (paragraph) elements */
+p {
+    color: white; /* Set paragraph text color to white */
+}
+
+/* Style for any element with class "contact" */
 .contact {
-    color: black;
-    background-color:bisque;
-    text-align: left;
-    padding : 30px;
- 
+    color: black;                 /* Set text color to black */
+    background-color: bisque;    /* Set background to a light beige color */
+    text-align: left;            /* Align text to the left */
+    padding: 30px;               /* Add 30px padding on all sides */
 }
-    .contact p {
-        color: black;
 
-    }
+/* Target <p> elements inside an element with class "contact" */
+.contact p {
+    color: black; /* Override general <p> style and set text color to black */
+}
 
-    .contact a:hover{  
-    background-color:blueviolet;
-    border-radius: 4px;
-    }
-  
+/* Style anchor tags inside .contact when hovered over */
+.contact a:hover {  
+    background-color: blueviolet; /* Change background on hover to purple */
+    border-radius: 4px;           /* Slightly round the corners */
+}
+
+/* Style for elements with class "navbar" */
 .navbar {
-    background-color:dimgray;
-    padding: 10px;
-    justify-items:center;
-    font-family:"roboto", sans-serif;
+    background-color: dimgray;            /* Set navbar background to dark gray */
+    padding: 10px;                        /* Add 10px padding inside navbar */
+    justify-items: center;               /* Align items to center (only works with CSS Grid) */
+    font-family: "roboto", sans-serif;   /* Use Roboto font, fallback to sans-serif */
 }
 
+/* Style for elements with class "nav" (typically a <ul>) */
 .nav {
-    list-style: none;        /* Remove bullets */
-    margin: 0;
-    padding: 0;
-    display: flex;           /* Arrange <li> items inline */
-    gap: 20px;               /* Space between links */
+    list-style: none; /* Remove default bullet points */
+    margin: 0;         /* Remove default margin */
+    padding: 0;        /* Remove default padding */
+    display: flex;     /* Arrange child items in a row (flex layout) */
+    gap: 20px;         /* Add 20px space between list items */
 }
 
+/* Style for anchor tags inside list items within .nav */
 .nav li a {
-    color: white;  
-    text-decoration: none;
-    padding: 8px 12px;
-    display: inline;
-    transition: background 0.3s;
+    color: white;                  /* Set text color to white */
+    text-decoration: none;        /* Remove underlines from links */
+    padding: 8px 12px;            /* Add padding around the link text */
+    display: inline;              /* Keep link inline (default) */
+    transition: background 0.3s;  /* Smooth transition on background color change */
 }
 
-.nav li a:hover {                   /* setting hover properties */
-    background-color: #555;
-    border-radius: 4px;
+/* Change style of nav links on hover */
+.nav li a:hover {
+    background-color: #555; /* Darker background on hover */
+    border-radius: 4px;     /* Rounded corners on hover */
 }
 
+/* Style all <img> elements */
 img {
-  max-width: 100%;
-  width:200px;         /* Set width */
-    height: 200px;        /* Set height */
-    object-fit:fill;    /* Ensures image fills the shape without distortion */
-    border-radius: 50%;
-    border:5px;   /* Makes it a circle */
-    position: absolute;
-    top: 50px;
-    right:1px;
-    left:500px;
-    display:block;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  background-color: #555;
+    max-width: 100%;        /* Prevent image from exceeding container */
+    width: 200px;           /* Force image width to 200px */
+    height: 200px;          /* Force image height to 200px */
+    object-fit: fill;       /* Stretch image to fill the container (may distort) */
+    border-radius: 50%;     /* Make image circular */
+    border: 5px;            /* Set border width (missing style—should include type and color) */
+    position: absolute;     /* Absolutely position image on page */
+    top: 50px;              /* Position image 50px from top */
+    left: 500px;            /* Position image 500px from left */
+    display: block;         /* Display image as block-level element */
 }
 
-  p {
-    color: white
+/* Style for the <body> of the document */
+body { 
+    font-family: "Roboto", sans-serif; /* Set default font to Roboto */
+    font-optical-sizing: auto;         /* Adjust font for legibility on different displays */
+    background-color: #555;            /* Set dark gray background color */
+}
 
-  }
+/* Style for elements with class "form" */
+.form {
+    color: white; /* Set text color to white */
+}
 
-  .form {
-    color:white 
-  }
-  
-  li{
-    color:white;
-  }
+/* Style for all <li> (list item) elements */
+li {
+    color: white; /* Set text color to white */
+}
